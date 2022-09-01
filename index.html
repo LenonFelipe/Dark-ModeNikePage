@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <title>Tênis Air Jordan 1 SE Masculino</title>
+</head>
+<body>
+    <script src="main.js"></script>
+
+    <header>
+        <div class="dv1">
+            <a class="join" href="#">Junte-se a Nós</a>
+            <a href="#"><img class="air" src="airjordan.webp"/></a>
+            <a href="#"><img class="snk" src="snkrs.webp"/></a>
+            <img onclick="darkMode()" class="dark" alt="Modo noturno" src="darkmode.webp"/>
+            <a class="pedidos" href="#">Acompanhar Pedidos</a>
+            <a class="login" href="#">Login/Inscreva-se</a>
+            <a class="ajuda" href="#">Ajuda</a>
+            <img onclick="menuvindo()" id="carro" class="car" src="carrin.jpg"/>
+            <span onclick="menuvindo()"  class="carNum">0</span>
+        </div>    
+        <div id="menum" class="menu">
+            <img onclick="menuindo()" class="xmnu" src="xmenu1.png">
+            <p class="fechar"><strong>SEU CARRINHO</strong></p>
+            <h1> SEU CARRINHO ESTÁ VAZIO</h1>
+            <P class="conteudo">Navegue pelas categorias da loja ou faça</P>
+            <p class="conteudo2">uma busca pelo seu produto.</P>
+            <button onclick="menuindo()" class="btn">Continuar Comprando</button>
+        </div>
+
+        <div onclick="menuindo()" class="back" id="beck"></div>
+
+        <img class="nike" src="swoosh.png"/>
+
+        <nav>
+            <ul>
+                <li><a onmouseenter="menudrop()" onmouseout="menudrop1()" class="l1" href="#">DIA DAS MÃES</a></li>
+                
+                <li><a onmouseenter="lanMenuShow()" onmouseout="lanMenuDesable()" class="l2" href="#" >LANÇAMENTOS</a></li>
+            
+                <li><a onmouseenter="femMenuShow()" onmouseout="femMenuDesable()" class="l3" href="#"  >FEMININO</a></li>
+            
+                <li><a onmouseenter="masMenuShow()" onmouseout="masMenuDesable()" class="l4" href="#"  >MASCULINO</a></li>
+            
+                <li><a onmouseenter="infMenuShow()" onmouseout="infMenuDesable()" class="l5" href="#" >INFANTIL</a></li>
+           
+                <li><a onmouseenter="snkMenuShow()" onmouseout="snkMenuDesable()" class="l6" href="#" >SNKRS</a></li>
+            
+            </ul>
+        </nav>
+
+        <img class="lupa-icon" src="lupa.png">
+
+        <input placeholder="O que você procura?" type="search">
+
+        <article onmouseenter="menudrop()" id="drop1" class="drop1">
+                <hr class="linha1">
+                <h5 class="aga5">ROUPAS</h5>
+                <p class="mat">Maternidade</p>
+                <p class="loo">Looks de treino</p>
+                <h5 class="ht">CALÇADOS</h5>
+                <p class="lan">Lançamentos</p>
+        </article>
+
+        <div onmouseenter="lanMenuShow()" id="drop2" class="drop2">
+            <hr class="linhax">
+        <article>
+            <h5 class="tai1">FEMININO</h5>
+            <p class="ob1">Roupas</p>
+            <p class="ob1">Calçados</p>
+            <p class="ob1">Acessórios</p>
+        </article>
+
+        <article>
+            <h5 class="tai">MASCULINO</h5>
+            <p class="ob">Roupas</p>
+            <p class="ob">Calçados</p>
+            <p class="ob">Acessórios</p>
+        </article>
+
+        <article>
+            <h5 class="tai2">INFANTIL</h5>
+            <p class="ob2">Roupas</p>
+            <p class="ob2">Calçados</p>
+            <p class="ob2">Acessórios</p>
+        </article>
+
+        </div>
+
+        <div onmouseenter="femMenuShow()" id="drop3" class="drop3">
+
+            <article>
+                <h5 class="aga">EXCLUSIVO MEMBROS</h5>
+                <h5 class="aga">NIKE JOURNAL</h5>
+                <h5 class="aga">GUIA DE TOPS</h5>
+                <h5 class="aga">NIKE SWIM</h5>
+                <h5 class="aga">SUSTENTÁVEIS</h5>
+                <h5 class="aga">MAIS VENDIDOS</h5>
+                <h5 class="aga">OFERTAS</h5>
+                <h5 class="aga">CARTÃO PRESEMTE</h5>
+                <h5 class="aga">AIR FORCE 1</h5>
+            </article>
+
+                <hr class="linha2">
+
+            <article>
+                <h5 class="title1">CALÇADOS</h5>
+                <P class="pe">Casual</P>
+                <P class="pe">Corrida</P>
+                <P class="pe">Treino & Academia</P>
+                <P class="pe">Chuteiras</P>
+                <P class="pe">Para Jogar Tênis</P>
+                <P class="pe">Cilismo</P>
+                <P class="pe">Skateboarding</P>
+            </article>
+            
+            <article>
+                <h5 class="title2">ACESSÓRIOS</h5>
+                <P class="pe2">Bonés & Viseiras</P>
+                <P class="pe2">Bolsas & Mochilas</P>
+                <P class="pe2">Bolas</P>
+                <P class="pe2">Meias</P>
+                <P class="pe2">Outros</P>
+            </article>
+
+            <article>
+                <h5 class="title3">TENDÊNCIAS</h5>
+                <P class="pe3">Animal Print</P>
+                <P class="pe3">Sustentáveis</P>
+                <P class="pe3">Conjuntinhos</P>
+                <P class="pe3">Metálicos</P>
+                <P class="pe3">Cores Vivas</P>
+                <P class="pe3">Tie Dye</P>
+            </article>
+
+            <article>
+                <h5 class="title4">COLEÇÕES</h5>
+                <P class="pe4">Icon Clash</P>
+                <P class="pe4">Nike Air</P>
+                <P class="pe4">Jordan</P>
+                <P class="pe4">Plus Size</P>
+                <P class="pe4">Maternidade</P>
+                <P class="pe4">Tie Dye</P>
+            </article>
+
+            <article>
+                <h5 class="title5">ROUPAS</h5>
+                <P class="pe5">Tops</P>
+                <P class="pe5">Camisetas</P>
+                <P class="pe5">Camisas de Times</P>
+                <P class="pe5">Calças & Leggings</P>
+                <P class="pe5">Shorts</P>
+                <P class="pe5">Jaquetas & Moletons</P>            
+                <P class="pe5">Saias & Vestidos &<br /> Macacões</P>
+                <P class="pe5">Segunda pele & <br />Compressão</P>
+            </article>
+
+            <article>
+                <h5 class="title6">ESPORTES</h5>
+                <P class="pe6">Yoga</P>
+                <P class="pe6">futebol</P>
+                <P class="pe6">Basquete</P>
+                <P class="pe6">Natação & Praia</P>
+            </article>
+
+            <article>
+                <h5 class="title7">MARCAS</h5>
+                <P class="pe7">Nike Sportwear</P>
+                <P class="pe7">NikeLab</P>
+            </article>
+        </div>
+
+        <div onmouseenter="masMenuShow()" id="drop4" class="drop4">
+
+            <article>
+                <h5 class="aga1">NOVA CAMISA CORINTHIANS</h5>
+                <h5 class="aga1">HAKONE EKIDEN</h5>
+                <h5 class="aga1">EXCLUSIVO MEMBROS</h5>
+                <h5 class="aga1">NIKE JOURNAL</h5>
+                <h5 class="aga1">NIKE SWIM</h5>
+                <h5 class="aga1">SUSTENTÁVEIS</h5>
+                <h5 class="aga1">MAIS VENDIDOS</h5>
+                <h5 class="aga1">CENTRAL DE CHUTEIRAS</h5>
+                <h5 class="aga1">OFERTAS</h5>
+                <h5 class="aga1">CARTÃO PRESEMTE</h5>
+                <h5 class="aga1">AIR FORCE 1</h5>
+            </article>
+
+                <hr class="linha3">
+
+            <article>
+                <h5 class="tit1">CALÇADOS</h5>
+                <P class="pa1">Casual</P>
+                <P class="pa1">Corrida</P>
+                <P class="pa1">Chuteiras</P>
+                <P class="pa1">Basquete</P>
+                <P class="pa1">Treino & Academia</P>
+                <P class="pa1">Skateboarding</P>
+                <P class="pa1">Para Jogar Tênis</P>
+                <P class="pa1">Cilismo</P>
+            </article>
+            
+            <article>
+                <h5 class="tit2">ACESSÓRIOS</h5>
+                <P class="pa2">Bonés & Viseiras</P>
+                <P class="pa2">Bolsas & Mochilas</P>
+                <P class="pa2">Bolas</P>
+                <P class="pa2">Meias</P>
+                <P class="pa2">Outros</P>
+            </article>
+
+            <article>
+                <h5 class="tit3">MARCAS</h5>
+                <P class="pa3">Nike Sportswear</P>
+                <P class="pa3">NikeLab</P>
+                <P class="pa3">Jordan</P>
+                <P class="pa3">NBA</P>
+            </article>
+
+            <article>
+                <h5 class="tit4">ROUPAS</h5>
+                <P class="pa4">Camisetas</P>
+                <P class="pa4">Shorts</P>
+                <P class="pa4">Camisas de Times</P>
+                <P class="pa4">Jaquetas & Moletons</P>
+                <P class="pa4">Corta Vento</P>
+                <P class="pa4">Calças & Leggings</P>
+                <P class="pa4">Polos</P>            
+                <P class="pa4">Segunda pele & <br />Compressão</P>
+            </article>
+
+            <article>
+                <h5 class="tit5">COLEÇÕES</h5>
+                <P class="pa5">A.I.R</P>
+                <P class="pa5">Hakone Ekiden</P>
+                <P class="pa5">Nike Air</P>
+                <P class="pa5">Run Division</P>
+                <P class="pa5">BRS</P>
+                <P class="pa5">PSG x Jordan</P>
+                <P class="pa5">Corrida em trilha</P>
+                <P class="pa5">ACG</P>
+            </article>
+
+            <article>
+                <h5 class="tit6">ESPORTES</h5>
+                <P class="pa6">Corrida</P>
+                <P class="pa6">futebol</P>
+                <P class="pa6">Treino & Academia</P>
+                <P class="pa6">Basquete</P>
+                <P class="pa6">Skateboarding</P>
+                <P class="pa6">Natação & Praia</P>
+                <P class="pa6">Pra jogar Tênis</P>
+                <P class="pa6">Yoga</P>
+                <P class="pa6">Ciclismo</P>
+            </article>     
+        </div>
+        <div onmouseenter="infMenuShow()" id="drop5" class="drop5">
+
+            <hr class="linha4">
+
+            <article>
+                <h5 class="tit7">CALÇADOS</h5>
+                <P class="pa7">Pré-Adolescentes (34-38)</P>
+                <P class="pa7">Crianças (24-33)</P>
+                <P class="pa7">Bebês (16-26)</P>
+                <P class="pa7">Casual</P>
+                <P class="pa7">Corrida</P>
+                <P class="pa7">Chuteiras</P>
+            </article> 
+
+            <article>
+                <h5 class="tit8">ESPORTES</h5>
+                <P class="pa8">Corrida</P>
+                <P class="pa8">futebol</P>
+                <P class="pa8">Treino & Academia</P>
+                <P class="pa8">Basquete</P>
+                <P class="pa8">Skateboarding</P>
+                <P class="pa8">Natação & Praia</P>
+                <P class="pa8">Pra jogar Tênis</P>
+                <P class="pa8">Yoga</P>
+                <P class="pa8">Ciclismo</P>
+            </article>    
+        </div>    
+        <div id="drop6" class="drop6">
+
+            <hr class="linha5">
+
+            <article>
+                <h5 class="tit9">SNKRS</h5>
+                <P class="pa9">Feed</P>
+                <P class="pa9">Em estoque</P>
+                <P class="pa9">Calendário</P>
+                <P class="pa9">O que é SNKRS</P>
+            </article>  
+        </div>
+    </header>
+    <section class="sec1">
+            <img onclick="puxaE()" class="seta esquerda" src="seta1.png" />
+            <img class="seta direita" src="seta2.png" />
+        <div id="oferts" class="oferta">
+            <img class="promo" src="promocao.png" />
+            <h1 class="of">OFERTAS</h1>
+            <P class="ofp">Que preparamos especialmente pra você.</P>
+            <a href="#" class="ofa" id="ofa">Veja mais</a>
+        </div>
+        <div id="fretes" class="frete">
+            <img class="box" src="box.png" />
+            <img class="logo-frete" src="swoosh.png" />
+            <h1 class="fg">FRETES GRATIS</h1>
+            <P class="fgp">Consulte as opções e condições de entrega.</P>
+            <a href="#" class="fga" id="fga">Saiba mais</a>
+        </div>
+    </section>
+</body>
+</html>
