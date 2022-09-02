@@ -475,7 +475,7 @@ input{
 }
 input:hover{
     outline: none;
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(227, 227, 227);
 }
 input:focus{
     outline: none;
@@ -486,7 +486,7 @@ input:focus{
     top: -635px;
     left: 1045px;
     z-index: 1;
-    cursor: pointer;
+    cursor:text;
 }
 
 .drop1{
@@ -1097,9 +1097,9 @@ input:focus{
 .sec1{
     height: 55px;
     width:100vw;
-    background-color: rgb(239, 237, 237);
+    background-color: rgb(227, 227, 227);
     position:absolute;
-    top: 120px;
+    top: 140px;
 }
 .seta{
     height: 20px;
@@ -1108,11 +1108,14 @@ input:focus{
     cursor: pointer;
 }
 .esquerda{
-    left: 300px;
+    left: 270px;
     transform: rotate(180deg);
+    cursor: pointer;
+    z-index: 1;
 }
 .direita{
-    left: 1000px;
+    left: 1030px;
+    cursor: pointer;
 }
 .of, .ofp, .promo, .ofa{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -1178,4 +1181,32 @@ input:focus{
     top: -65px;
     left: 500px;
     text-decoration: underline;
+}
+.fs, .fsa,.fsp, .fashion, .moda{
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fashion{
+    top: -80px;
+    left: 389px;
+    height: 35px;
+}
+.fs{
+    left: 430px;
+    top: -109px;
+}
+.fsp{
+    left: 619px;
+    top: -129px;
+}
+.fsa{
+    text-decoration: underline;
+    left: 950px;
+    top: -148px;
+}
+.moda{
+    left: 1200px;
+    top: -33px;
+    opacity: 0%;
+    transition: opacity 0.3s, left 0.3s;
 }

@@ -58,4 +58,7 @@ function puxaE(){
     frete.style.opacity = "100%"
     frete.style.left = "390px"
     frete.style.display = "block"
+    var moda = document.getElementById("moda")
+    moda.style.left = "690px"
+    moda.style.display = "block"
 }
