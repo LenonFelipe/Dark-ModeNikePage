@@ -50,15 +50,48 @@ function snkMenuShow(){
 function snkMenuDesable(){
     var menushow1 = document.getElementById("drop6").style.display = "none"
 }
-function puxaE(){
-    var Oferta = document.getElementById("oferts")
-    Oferta.style.opacity = "0%"
-    Oferta.style.right = "550px"
-    var frete = document.getElementById("fretes")
-    frete.style.opacity = "100%"
-    frete.style.left = "390px"
-    frete.style.display = "block"
-    var moda = document.getElementById("moda")
-    moda.style.left = "690px"
-    moda.style.display = "block"
-}
+window.onload = function menus(){
+    
+    setTimeout(menuUmPush, 1000)
+
+        function menuUmPull(){
+            const menuUm = document.getElementById("oferts");
+            menuUm.style.opacity = "0"
+            menuUm.style.right = "100px"
+        }
+        setTimeout(menuUmPull, 10000)
+
+            function menuDoisPull(){
+                const menuDois = document.getElementById("fretes");
+                menuDois.style.opacity = "100"
+                menuDois.style.left = "390px"
+            }
+            setTimeout(menuDoisPull, 10000)
+
+                function menuDoisPush(){
+                    const menuDois = document.getElementById("fretes");
+                    menuDois.style.opacity = "0"
+                    menuDois.style.left = "390px"
+                }
+                setTimeout(menuDoisPush, 15000)
+
+                    function menuTresPull(){
+                        const menuTres = document.getElementById("moda");
+                        menuTres.style.opacity = "100"
+                        menuTres.style.left = "-30px"
+                    }
+                    setTimeout(menuTresPull, 15000)
+                        function menuTresPush(){
+                            const menuTres = document.getElementById("moda");
+                            menuTres.style.opacity = "0"
+                            menuTres.style.left = "-30px"
+                        }
+                        setTimeout(menuTresPush, 20000)
+
+                            function menuUmPush(){
+                                const menuUm = document.getElementById("oferts");
+                                menuUm.style.opacity = "100"
+                                menuUm.style.right = "0px"
+                            }
+                            setTimeout(menuUmPush, 20000)
+    }

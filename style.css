@@ -221,6 +221,18 @@ body{
     filter: invert(1);
     color: white;
 }
+.dark-mode .fs{
+    filter: invert(1);
+    color: white;
+}
+.dark-mode .fsp{
+    filter: invert(1);
+    color: white;
+}
+.dark-mode .fsa{
+    filter: invert(1);
+    color: white;
+}
 .dv1{
     display: flex;
 }
@@ -1156,7 +1168,7 @@ input:focus{
     position: relative;
     height: 60px;
     width: 400px;
-    left: 1040px;
+    left: 540px;
     top: -55px;
     opacity: 0%;
     transition: opacity 0.3s, left 0.3s;
@@ -1205,7 +1217,7 @@ input:focus{
     top: -148px;
 }
 .moda{
-    left: 1200px;
+    left: 130px;
     top: -33px;
     opacity: 0%;
     transition: opacity 0.3s, left 0.3s;
